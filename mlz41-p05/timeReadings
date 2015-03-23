@@ -1,0 +1,24 @@
+Lis-MacBook-Pro:mlz41-p05 Li$ time ./p05 bar a
+2
+
+real	0m0.005s
+user	0m0.001s
+sys	0m0.002s
+Lis-MacBook-Pro:mlz41-p05 Li$ time ./p05 bar10 a
+1080000
+
+real	0m0.065s
+user	0m0.052s
+sys	0m0.011s
+Lis-MacBook-Pro:mlz41-p05 Li$ time ./p05 bar a --systemcalls
+2
+
+real	0m0.005s
+user	0m0.001s
+sys	0m0.002s
+Lis-MacBook-Pro:mlz41-p05 Li$ time ./p05 bar10 a --systemcalls
+1080000
+
+real	0m6.167s
+user	0m0.971s
+sys	0m5.194s
